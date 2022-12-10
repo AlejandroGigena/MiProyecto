@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(7, 7, 7);
+}
+header {
+  background-color: #b5a6f1;
+
+  background: linear-gradient(to left, rgb(204, 148, 230), rgb(71, 1, 118));
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+.Hola {
+  font-size: 50px;
+  color: #070707;
+  animation-duration: 1s;
+  animation-name: Hola;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes Hola {
+  from {
+    transform: scale(2) rotate(-20deg);
+    opacity: 0;
+    color: white;
+  }
+}
+
+.button {
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 30px;
+  border-radius: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: #0c0c0c;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+}
+
+.button:hover {
+  background: #cf7de8;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29),
+    inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+.button:active {
+  background: rgb(162, 0, 255);
+  box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.29),
+    inset 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor {
+  display: flex;
+}
+.title1 {
+  padding: 1rem;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.imagenesNosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imagenZapatos {
+  border: solid;
+  text-align: center;
+  margin: 30px;
+}
+
+.imagenAccesorios {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+
+.imagenIndumentaria {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+
+.imagenCarteras {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+
+.tabla1 {
+  text-align: center;
+  background-color: #b5a6f1;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav__link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-items: center;
+}
+.nav__link:hover {
+  opacity: 0.65;
+}
+section {
+  background-color: #b5a6f1;
+  padding: 4rem 0 0 0;
+}
+.formulario1 {
+  color: rgb(8, 7, 7);
+  background-color: #b5a6f1;
+}
+.soloFormulario {
+  background-color: white;
+}
+footer {
+  background-color: rgb(123, 25, 214);
+}
+.footer-sm__icons {
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.footer-title {
+  text-align: center;
+}
+.card__zapatos {
+  color: rgb(5, 5, 5);
+}
