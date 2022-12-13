@@ -1,0 +1,41 @@
+.imagenesNosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.imagenAccesorios {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+
+.imagenIndumentaria {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+
+.imagenCarteras {
+  border: solid;
+  margin: 30px;
+  text-align: center;
+}
+.imagenZapatos {
+  border: solid;
+  text-align: center;
+  margin: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.imagenPregunta {
+  margin: 30px;
+  opacity: 70%;
+}
+
+.card__zapatos {
+  color: rgb(5, 5, 5);
+}

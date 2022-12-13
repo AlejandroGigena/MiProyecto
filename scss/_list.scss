@@ -1,0 +1,17 @@
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .nav__link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .nav__link:hover {
+    opacity: 0.65;
+  }
+}
