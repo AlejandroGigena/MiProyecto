@@ -17,4 +17,9 @@
     "url": "https://github.com/AlejandroGigena/MiProyecto/issues"
   },
   "homepage": "https://github.com/AlejandroGigena/MiProyecto#readme"
+  
+  "dependencies": {
+    "node-sass" : "^8.0.0",
+    "nodemon": "2.0.20" ,
+  }
 }
